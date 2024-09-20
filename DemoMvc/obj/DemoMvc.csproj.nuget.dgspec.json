@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\Mvc\\DemoMvc\\DemoMvc.csproj": {}
+    "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\Mvc\\.Net-MVC\\DemoMvc\\DemoMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\Mvc\\DemoMvc\\DemoMvc.csproj": {
+    "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\Mvc\\.Net-MVC\\DemoMvc\\DemoMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\Mvc\\DemoMvc\\DemoMvc.csproj",
+        "projectUniqueName": "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\Mvc\\.Net-MVC\\DemoMvc\\DemoMvc.csproj",
         "projectName": "DemoMvc",
-        "projectPath": "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\Mvc\\DemoMvc\\DemoMvc.csproj",
+        "projectPath": "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\Mvc\\.Net-MVC\\DemoMvc\\DemoMvc.csproj",
         "packagesPath": "C:\\Users\\Van Ngoc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\Mvc\\DemoMvc\\obj\\",
+        "outputPath": "C:\\Users\\Van Ngoc\\OneDrive\\Desktop\\Mvc\\.Net-MVC\\DemoMvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Van Ngoc\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
